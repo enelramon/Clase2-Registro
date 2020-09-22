@@ -18,5 +18,6 @@ namespace Clase2_Registro
             MessageBox.Show($"Ocurrio una excepción :( {e.Exception.Message}", "");
             e.Handled = true;
         }
+
     }
 }
